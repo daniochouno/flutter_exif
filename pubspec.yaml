@@ -1,0 +1,20 @@
+name: flutter_exif
+description: A Flutter plugin for accessing to all metadata from your photos. Supports iOS and Android.
+version: 1.0.0
+homepage: https://github.com/daniochouno/flutter_exif
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: info.danielmartinez.flutter_exif
+    pluginClass: FlutterExifPlugin
